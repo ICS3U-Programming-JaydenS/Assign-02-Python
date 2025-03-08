@@ -3,6 +3,7 @@
 # Date: March 6, 2025
 # This programs calculates the area and perimeter of a decagon given user input
 
+# Import math module
 import math
 
 
@@ -14,9 +15,9 @@ def main():
     # This makes the code stop if the User picks a negative number or zero.
     if side <= 0:
         print("Please pick a positive number!")
-        #Code continues if it is a positive number.
+        # Code continues if it is a positive number.
     else:
-        #Area and perimeter is calculated
+        # Area and perimeter is calculated
         area = 5 / 2 * (side**2) * math.sqrt(5 + 2 * math.sqrt(5))
         perimeter = 10 * side
         # This part of the code calculates the Area and Perimeter with the given input
