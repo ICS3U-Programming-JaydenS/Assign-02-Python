@@ -7,6 +7,7 @@
 import math
 
 
+
 def main():
     # Code first greets user
     print("Hello! Welcome to Jayden's Decagon calculator")
